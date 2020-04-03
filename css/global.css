@@ -1,0 +1,34 @@
+.body{
+  width: 100%;
+}
+
+#content{
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#navigation{
+  background-color: #CFF0D9;
+}
+
+.personalfoto{
+   margin-top: 2%;
+   margin-bottom: 2%;
+ }
+
+ .heading{
+   margin-top: 2%;
+ }
+
+ .link{
+   color:#293333;
+ }
+
+ .beer-slider {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
