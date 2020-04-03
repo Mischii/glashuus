@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GLASHUUS</title>
-    <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" href="beerslider/BeerSlider.css">
     <script src="beerslider/BeerSlider.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="media/th.jpg"/>
   </head>
   <body>
     <div id="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-default">
         <a class="navbar-brand" href="index.html">Glashuus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,10 +20,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Patrick Bauersfeld<span class="sr-only">(current)</span></a>
+              <a href="#patrick" class="nav-link" >Patrick Bauersfeld<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Lars Buchser</a>
+              <a href="#lars" class="nav-link" >Lars Buchser</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="html/michele.html">Michèle Habegger</a>
@@ -34,10 +33,7 @@
       </nav>
     </div>
     <div id="content">
-      <div class="heading">
-        <h1>Bilder</h1>
-      </div>
-      <div class="personalfoto">
+      <div class="personalfoto patrick" id="patrick">
         <h2>Patrick Bauersfeld</h2>
         <div class="card-deck">
           <div class="card">
@@ -81,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="personalfoto">
+      <div class="personalfoto lars" id="lars">
         <h2>Lars Buchser</h2>
         <div class="card-deck">
           <div class="card">
@@ -125,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="personalfoto">
+      <div class="personalfoto michele">
         <h2>Michèle Habegger</h2>
         <div class="card-deck">
           <div class="card">
@@ -179,6 +175,7 @@
       <iframe src="https://www.youtube.com/watch?v=EEIk7gwjgIM"></iframe>
     </div>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
       $.fn.BeerSlider = function ( options ) {
         options = options || {};
@@ -187,6 +184,8 @@
         });
       };
       $('.beer-slider').BeerSlider({start: 50});
+
+
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
