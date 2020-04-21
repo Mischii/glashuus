@@ -15,6 +15,10 @@ body{
   color: rgb(26, 37, 12) !important;
 }
 
+#logo {
+  margin-right: 10px;
+}
+
 .navbar-default{
   background-color: rgb(141, 166, 111, 1);
   border: 0;
