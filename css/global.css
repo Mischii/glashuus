@@ -21,9 +21,15 @@ body{
   margin-right: 10px;
 }
 
+#navigation{
+  color: rgb(134, 110, 82) !important;
+  font-family: Montserrat;
+}
+
 .navbar-default{
   background-color: rgb(141, 166, 112, 1);
   border: 0;
+  color: rgb(134, 110, 82) !important;
   font-family: Montserrat;
 }
 
@@ -35,10 +41,25 @@ body{
 
  .heading{
    margin-top: 2%;
+   font-family: Montserrat;
+   text-align: center;
  }
 
  .link{
-   color:#293333;
+   color: black;
+   font-family: Montserrat;
+   text-align: center;
+   list-style-type: none;
+ }
+
+ a {
+   color: #ffffff;
+   font-family: Montserrat;
+ }
+
+ a:hover {
+   color: #ffffff;
+   font-family: Montserrat;
  }
 
  .beer-slider {
@@ -61,12 +82,16 @@ body{
 
 h1 {
   margin-top: 8%;
+  color: rgb(134, 110, 82) !important;
+  font-family: Montserrat;
+  text-align: center;
 }
 
 .video {
     width: 560px;
     height: 315px;
     overflow-y: hidden;
+    align-items: center;
 }
 
 /* Smartphone Portrait and Landscape */
