@@ -211,16 +211,31 @@
           </div>
         </div>
       </div>
-
       <div class="heading">
         <h1>Video</h1>
+      </div>
+      <div class="video-wrapper">
+        <video class="video">
+          <source src="media/video/demo.mp4" type="video/mp4">
+          Browser does not support video.
+        </video>
       </div>
       <div class="heading">
         <h1>Livestream</h1>
       </div>
-      <iframe class="video" src="https://www.youtube.com/embed/Gm3bQVANtVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe
+                class="video"
+                src="https://www.youtube.com/embed/Gm3bQVANtVo"
+                frameborder="0"
+                allow="accelerometer; autoplay;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture"
+                allowfullscreen>
+        </iframe>
+      </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
       $.fn.BeerSlider = function ( options ) {
@@ -230,8 +245,6 @@
         });
       };
       $('.beer-slider').BeerSlider({start: 50});
-
-
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
