@@ -86,6 +86,10 @@ h1 {
     overflow-y: hidden;
 }
 
+#live-stream {
+    margin-bottom: 50px;
+}
+
 /* Smartphone Portrait and Landscape */
 @media only screen
 and (max-device-width : 480px){
